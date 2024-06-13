@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { PROPERTY_DEPS_METADATA } from '@nestjs/common/constants';
 
-interface Property {
+export interface Property {
     id: number;
     name: string;
     location: string;

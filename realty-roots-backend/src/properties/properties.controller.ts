@@ -1,5 +1,5 @@
 import { Controller, Get,Param, Post,Body,Put,Delete } from '@nestjs/common';
-import { PropertiesService } from './properties.service';
+import { PropertiesService, Property } from './properties.service';
 
 
 interface CreatePropertyDto {
